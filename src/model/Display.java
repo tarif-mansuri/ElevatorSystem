@@ -1,7 +1,7 @@
 package model;
 
 public class Display {
-    private Floor floor;
-    private Direction direction;
-    private ElevatorStatus elevatorStatus;
+    public void showStatus(Floor floor, Direction direction, ElevatorStatus elevatorStatus) {
+        System.out.print("Floor " + floor+" Direction " + direction+" Elevator Status " + elevatorStatus);
+    }
 }

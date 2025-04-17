@@ -2,6 +2,11 @@ package model;
 
 public class Floor {
     private int floorNumber;
-    private ExternalButton upButton;
-    private ExternalButton downButton;
+
+    public Floor(int floorNumber) {
+        this.floorNumber = floorNumber;
+    }
+    public int getFloorNumber(){
+        return floorNumber;
+    }
 }
